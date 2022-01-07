@@ -8,10 +8,13 @@ public class MediaAritmetica {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		float[] notas = new float[4];
+		System.out.println("Informe a quantidade de notas do estudante: ");
+		int quantidadeDeNotas = entrada.nextInt();
+		
+		float[] notas = new float[quantidadeDeNotas];
 		
 		for(int i = 0; i < notas.length;i++) {
-			System.out.println("Digite a " + (i+1)+ "ª nota: ");
+			System.out.println("Digite a " + (i+1)+ "Âª nota: ");
 			
 			notas[i] = entrada.nextFloat();
 		}
@@ -29,9 +32,9 @@ public class MediaAritmetica {
 		float media = soma/notas.length;
 		
 		if(media >= 7) {
-			System.out.println("Média igual a " + media + ". Aluno aprovado.");
+			System.out.println("MÃ©dia igual a " + media + ". Aluno aprovado.");
 		}else {
-			System.out.println("Média igual a " + media + ". Aluno reprovado.");
+			System.out.println("MÃ©dia igual a " + media + ". Aluno reprovado.");
 		}
 	}
 
