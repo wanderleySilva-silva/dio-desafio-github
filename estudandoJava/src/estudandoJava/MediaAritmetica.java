@@ -32,9 +32,9 @@ public class MediaAritmetica {
 		float media = soma/notas.length;
 		
 		if(media >= 7) {
-			System.out.println("MÃ©dia igual a " + media + ". Aluno aprovado.");
+			System.out.println("Média igual a " + media + ". Aluno aprovado.");
 		}else {
-			System.out.println("MÃ©dia igual a " + media + ". Aluno reprovado.");
+			System.out.println("Média igual a " + media + ". Aluno reprovado.");
 		}
 	}
 
